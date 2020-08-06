@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>La página de Lala</title>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+
+<! -- ESTILO --> 
+    <link href='style.css' rel='stylesheet'>
+    <script src="javaa.js"></script>>
+  </head>
+  <body>
+
+<! -- NAVBAR --> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Casita <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Mis fotos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Videos</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Alegrá tus días con este contenido
+    </span>
+  </div>
+</nav>
+<! -- BANNER --> 
+<div id="banner">
+  <h1>LA PÁGINA DE LALA 🐾</h1>
+  <p>Hola! Suscribite para recibir fotos de mis travesuras que te alegrarán el día</p>
+  <p>
+     <a class="btn btn-danger" href="#">Mirá un adelanto!😻</a>
+   </p>
+</div>
+
+<div id="beneficios">
+  <p>Conocé los beneficios que te traerá suscribirte 🐾🐾</p>
+</div>
+
+<! -- TARJETAS--> 
+<div class="container">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="card text-center">
+  <img src="images/ternura.jpg" class="foto" width="100">
+  <h2>Mejora tu ánimo </h2>
+  <p>No podrás contener la <strong>ternura</strong>💗💖 al ver mis fotos, mi naricita roja se roba todos los corazones</p>
+</div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="card text-center">
+  <img src="images/pedidos.jpg" class="foto" width="100">
+  <h2>Diversión asegurada</h2>
+  <p>Podrás enterarte de mis travesuras diarias que te <strong>alegrarán el día</strong>, vas a reirte muchisimo 🙀</p>
+</div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="card text-center">
+  <img src="images/yoga.jpg" class="foto" width="100">
+  <h2>Seguí mi crecimiento</h2>
+  <p>Todavía soy muy <strong>chiquita</strong> 🐈pero en unos meses seré gigante y podré treparme a todos lados</p>
+</div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="card text-center">
+  <img src="images/meme.jpg" class="foto" width="100">
+  <h2>Soy re memeable 😸</h2>
+  <p>Con mis fotos podrás hacer <strong>memes</strong> para enviar a tus amigos, familiares y grupos de whatsapp</p>
+</div>
+    </div>
+  </div>
+</div>
+
+<! -- FORMULARIO --> 
+<div id="form">
+  <h2> Añade tu email y pronto recibirás noticias mias...</h2>
+  <p> Miau 🐾🐾 </p>
+    <form name="Quiz">
+  Email: <input type="text" name="fname">
+</form>
+  <button id="button" type="button" onclick="validateText()">Suscribite!</button>
+</div>
+
+
+<! -- FOTOS --> 
+<div class="textodespedida">
+  <h2>Te dejo unas fotos para que no te resistas a<a href="#" class="alert-link"> suscribirte</a>😻.</h2>
+</div>
+
+<div class="card-group">
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <img src="images/raton.jpg" class="fotosfinales" alt="gato con juguete">
+    <div class="card-body">
+      <h5 class="card-title">Jugando un rato</h5>
+      <p class="card-text">Mirá mi chiche nuevo, a mi dueña no le gustan los ratones pero a mi me encantan.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Hace 1 día</small>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <img src="images/bostezo.jpg" class="fotosfinales" alt="gato bostezando">
+    <div class="card-body">
+      <h5 class="card-title">Despues de la siesta</h5>
+      <p class="card-text">Me gusta dormir la siesta al sol o escondida entre las frazadas.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Hace 2 días</small>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <img src="images/pepa.jpg" class="fotosfinales" alt="perro y gato">
+    <div class="card-body">
+      <h5 class="card-title">Mi amiga perruna</h5>
+      <p class="card-text">Ella es pepa, jugamos juntas y a veces peleamos por la comida pero después nos amigamos.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Hace 3 días</small>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <img src="images/ojos.jpg" class="fotosfinales" alt="cara de gato">
+    <div class="card-body">
+      <h5 class="card-title">Mira esta carita</h5>
+      <p class="card-text">Decime si no soy lo mas tierno que viste.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Hace 4 días</small>
+    </div>
+  </div>
+</div>
+
+<div id="beneficios">
+  <p>Muchas gracias por visitar mi página, espero que disfrutes mi contenido, puedes seguirme también en mis redes🐾🐾</p>
+</div>
+
+<! -- FOOTER --> 
+<div class="footer">
+ <ul class="list-inline">
+  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="#"><i class="fab fa-github"></i></a></li>
+ </ul>
+  </div>
+ </body>
+ </html>
+
