@@ -1,0 +1,158 @@
+body{
+  background: #1c031708;
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-weight: lighter;
+  font-size: 13px;
+}
+h2 {
+ font-family: sans-serif;
+    color: #f69797;
+    font-weight: bold;
+    font-size: 20;
+}
+
+p{
+  background: #1c031708;
+  color: white;
+  font-size: 17px;
+  font-family: Helvetica;
+  }
+
+#banner {
+    text-align: center;s
+    margin: 60 50 20 50;
+    padding: 150;
+    background-color: black;
+    background-image: linear-gradient(185deg, rgba(0, 0, 0, 0.83), rgba(255,255,255,0.5)), url(https://pbs.twimg.com/media/EeszOPvWkAUoFwS?format=jpg&name=medium);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px #00000024;
+}
+#banner h1 {
+  color: white;
+  font-size: 80px;
+}
+
+#banner p {
+  color: #FEE5FD;
+  text-shadow: 1px 1px 2px black;
+  opacity: 0.9;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+#beneficios p {
+  color: #888181;
+  font-size: 20px;
+  text-align: center;
+  margin: 10;
+  }
+
+  #form h2 {
+  color: #888181;
+  font-size: 20px;
+  text-align: left;
+  margin: 10;
+  }
+
+  #form p {
+  color: #888181;
+  font-size: 20px;
+  text-align: left;
+  margin: 10;
+  }  
+
+   #form form {
+  color: #888181;
+  font-size: 17px;
+  text-align: left;
+  margin: 10;
+  }  
+
+    #form button {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  font-size: 17px;
+  margin: 10;
+  }  
+
+
+.card {
+    margin: 5px;
+    padding: 20;
+    background-color: black;
+    background-image: linear-gradient(225deg, rgba(0, 0, 0, 0.83), rgba(255,255,255,0.5));
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px #00000024;
+}
+
+.foto{
+ margin: 0px;
+ width: 105%;
+ padding-right: 7;
+
+}
+
+ .fotosfinales{
+ margin: 5;
+  width: 100%;  
+}
+
+.textodespedida{
+  color: #888181;
+  font-size: 20px;
+  text-align: left;
+  margin: 10;
+}
+
+.textodespedida a {
+  background-color: transparent;
+  color: #DBC1E0 ;
+  text-decoration: none;
+}
+
+.textodespedida a:hover {
+  color: #f69797;
+}
+
+.card-text{
+  color: #888181;
+  font-size: 20px;
+  text-align: center;
+  margin: 10;
+}
+
+.card-title{
+  color: #888181;
+  font-size: 25px;
+  text-align: center;
+  margin: 10;
+  font-weight: lighter;
+}
+
+.footer{
+ background-color: black;
+ color: white;
+ padding: 20px 10px;
+ margin: 0;
+ margin-top: 20px
+}
+
+.footer a {
+  background-color: transparent;
+  color: #DBC1E0 ;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
